@@ -13,7 +13,7 @@
 * {
 	box-sizing: border-box;
 	font-family: Oxygen;
-	color: #777;
+	color: #191919;
 
 }
 
@@ -348,4 +348,61 @@ html, body {
 	display: block;
 	margin: 40px auto 80px auto;
 	font-size: 2em;
+}
+
+.login-form{
+	width: 300px;
+	padding: 40px;
+	position: absolute;
+	top: 70%;
+	left: 50%;
+	transform: translate(-50%, 50%);
+	background: #34495e;
+	text-align: center;
+}
+
+.login-form h1{
+	color: white;
+	text-transform: uppercase;
+	font-weight: 250;
+}
+
+.login-form input[type = "text"],.login-form input[type = "password"],.login-form input[type = "password2"]{
+	border: 0;
+	background: none;
+	display: block;
+	margin: 20px auto;
+	text-align: center;
+	border: 2px solid rgb(220,20,60);
+	padding: 14px 10px;
+	width: 200px;
+	outline: none;
+	color: white;
+	border-radius: 30px;
+	transition: 0.25s;
+	cursor: pointer;
+}
+
+.login-form input[type = "text"]:focus,.login-form input[type = "password"]:focus,.login-form input[type = "password2"]:focus{
+	width: 280px;
+	border-color: #3498db;
+}
+
+.login-form input[type = "submit"]{
+	border: 0;
+	background: none;
+	display: block;
+	margin: 20px auto;
+	text-align: center;
+	border: 2px solid #3498db ;
+	padding: 14px 40px;
+	outline: none;
+	color: white;
+	border-radius: 30px;
+	transition: 0.25s;
+	cursor: pointer;
+}
+.login-form input[type = "submit"]:hover{
+	background: #3498db;
+
 }
