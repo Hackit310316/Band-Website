@@ -1,1 +1,7 @@
-This is jsut a very basic Website
+A basic website developed using things I learned from Youtube
+
+- Update - Added Login feature
+- Modified - About, Index, Store and Styles
+
+- Future - Add functionality to the website with JavaScript for things such as allowing the buttons to alter the shopping
+cart and let the login page have backend connedctivity to a database.
